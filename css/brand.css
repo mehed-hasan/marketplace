@@ -115,10 +115,13 @@ input.brand_search:focus, input.brand_search:active{
 }
 
 
-/* .pagination{
-    display: flex;
+.pagination{
+    display: flex;      
     justify-content: flex-end;
     width: 100%;
+}
+.pagination li{
+    display: inline-flex;
 }
 .pagination ul{
     margin-right: 5%;
@@ -134,7 +137,7 @@ input.brand_search:focus, input.brand_search:active{
     transition: .5s;
     border-radius: 50%;
 
-} */
+}
 
 
 .pagination a.active, .pagination a:hover {
@@ -164,6 +167,10 @@ input.brand_search:focus, input.brand_search:active{
         width: 33.33% !important;
         margin-bottom: 50px;
 
+    }
+
+    .pagination{
+        justify-content: center;
     }
 
 }
