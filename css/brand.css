@@ -115,7 +115,7 @@ input.brand_search:focus, input.brand_search:active{
 }
 
 
-.pagination{
+/* .pagination{
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -134,7 +134,7 @@ input.brand_search:focus, input.brand_search:active{
     transition: .5s;
     border-radius: 50%;
 
-}
+} */
 
 
 .pagination a.active, .pagination a:hover {
