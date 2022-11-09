@@ -104,8 +104,8 @@ margin-bottom: 25px;
     margin-top: 60px;
 }
 input.brand_search{
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.2);
+padding: 10px;
+background: rgba(255, 255, 255, 0.2);
 border: 1px solid rgba(57, 61, 79, 0.2);
 border-radius: 4px;
 }
@@ -113,6 +113,36 @@ input.brand_search:focus, input.brand_search:active{
     box-shadow: 0 0 3px #211752;
     border: rgba(255, 255, 255, 0.2) !important;
 }
+
+
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.pagination ul{
+    margin-right: 5%;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #312E49;
+    transition: .5s;
+    border-radius: 50%;
+
+}
+
+
+.pagination a.active, .pagination a:hover {
+    background-color: #0DC4C2;
+    color: white;
+    border-radius: 50%;
+}
+
 
 @media screen and (min-width:1025px){
 
@@ -150,6 +180,9 @@ input.brand_search:focus, input.brand_search:active{
     .company_el p{
         font-size: 14px ;
 
+    }
+    .pagination ul{
+        margin-right: 20%;
     }
 }
 
@@ -207,8 +240,12 @@ input.brand_search:focus, input.brand_search:active{
 
 @media screen and (max-width:540px){
 
-    .company_el{
-        width: 100% !important;
+
+    .company svg, img{
+        width: 30px;
+    }
+    .company {
+        gap: 8px;
     }
 }
 @media screen and (max-width:662px){
@@ -216,6 +253,21 @@ input.brand_search:focus, input.brand_search:active{
     .grid-x > .small-6{
     width: 100% !important;
 }
+}
+
+@media screen and (max-width:400px){
+
+    .company_el{
+        width: 100% !important;
+    }
+    .char {
+        margin-top: 10px;
+    }
+    .company_row{
+        margin-top: 170px;
+    }
+
+    
 }
 
 @media screen and (max-width:350px){
